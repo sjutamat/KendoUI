@@ -1,0 +1,18 @@
+.footer {
+    position: fixed;
+    width: 99%;
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+  
+    z-index: 999;
+    font-size: 16px;
+    color: #292b2c;
+}
+.progress-logo {
+  width: 100px;
+  height: 100px;
+  vertical-align: middle;
+  background-position: center;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,41 @@
+
+<div class="row">
+  <div class="toolbar" role="banner">
+    <img
+      width="100"
+      src="../../assets/LogoLong450.png"
+    />
+    <div class="spacer"></div>
+    <kendo-splitbutton [data]="data" [look]="'flat'">
+      <span class="k-icon k-i-user"></span>
+  </kendo-splitbutton>
+  </div>
+  <div class="row inline">
+    
+    <div class="col-xs-12 col-sm-6 col-lg-3 example-col float-right">
+      <kendo-menu [items]="items">
+        <ng-template kendoMenuItemTemplate let-item="item">
+            <span [ngClass]="iconClass(item)"></span>
+            {{item.text}}
+        </ng-template>
+      </kendo-menu>
+    </div>
+    
+    
+    
+
+
+    <div class="col-xs-12 col-sm-6 col-lg-3 example-col float-right">
+      <p>Flat Primary Button</p>
+      <p class="k-block">
+        <button kendoButton [look]="'flat'" [primary]="true">Browse</button>
+        <button kendoButton [icon]="'folder'" [look]="'flat'" [primary]="true">Browse</button>
+        <button kendoButton [icon]="'folder'" [look]="'flat'" [primary]="true"></button>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+  
+
